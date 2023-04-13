@@ -1,98 +1,98 @@
 :root {
-    --primary-color: #63ceff;
-    --secondary-color: #f8f0fb;
-    --tertiary-color: #eeeded;
-    --accent-color: #f45b69;
-    --text-color: #456990;
-    --accent-hover-color: #d22132;
-  
-    --font-size-small: 14px;
-    --font-size-medium: 18px;
-    --font-size-large: 24px;
-    --font-size-xlarge: 36px;
-  
-    --font-family-primary: "Open Sans", sans-serif;
-  }
-  
-  body {
-    background-color: var(--primary-color);
-    font-family: var(--font-family-primary);
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: var(--font-family-primary);
-  }
-  
-  /* Barra de navegación */
-  .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--primary-color);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .navbar-container {
-    width: 100%;
-    margin: 0;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .navbar-logo {
-    height: 40px;
-    margin-left: 0;
-  }
-  
-  nav {
-    display: flex;
-    margin-left: 20px;
-  }
-  
-  .nav-link {
-    font-size: var(--font-size-medium);
-    color: #fff;
-    margin-right: 120px;
-    text-decoration: none;
-  }
-  
-  .navbar-btn {
-    padding: 10px 20px;
-    border-radius: 20px;
-    background-color: var(--accent-color);
-    color: #fff;
-    font-size: var(--font-size-small);
-    font-weight: bold;
-    text-transform: uppercase;
-    border: 0;
-    cursor: pointer;
-    margin-left: 20px;
-  }
-  
-  .nav-link:hover {
-    color: var(--accent-color);
-    transition: all 0.3s ease-in-out;
-    transform: translateY(3px) scale(1.1);
-  }
-  
-  .navbar-btn:hover {
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
-    background-color: var(--accent-hover-color);
-    transition: all 0.3s ease-in-out;
-  }
-  /* Sección Banner */
+  --primary-color: #63ceff;
+  --secondary-color: #f8f0fb;
+  --tertiary-color: #eeeded;
+  --accent-color: #f45b69;
+  --text-color: #456990;
+  --accent-hover-color: #d22132;
+
+  --font-size-small: 14px;
+  --font-size-medium: 18px;
+  --font-size-large: 24px;
+  --font-size-xlarge: 36px;
+
+  --font-family-primary: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: var(--font-family-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-primary);
+}
+
+/* Barra de navegación */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  width: 100%;
+  margin: 0;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  height: 40px;
+  margin-left: 0;
+}
+
+nav {
+  display: flex;
+  margin-left: 20px;
+}
+
+.nav-link {
+  font-size: var(--font-size-medium);
+  color: #fff;
+  margin-right: 120px;
+  text-decoration: none;
+}
+
+.navbar-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: var(--accent-color);
+  color: #fff;
+  font-size: var(--font-size-small);
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 0;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  color: var(--accent-color);
+  transition: all 0.3s ease-in-out;
+  transform: translateY(3px) scale(1.1);
+}
+
+.navbar-btn:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  background-color: var(--accent-hover-color);
+  transition: all 0.3s ease-in-out;
+}
+/* Sección Banner */
 .banner {
   background-color: var(--primary-color);
   text-align: center;
@@ -144,4 +144,36 @@
   margin-top: 20px;
   margin-left: 25%;
   cursor: pointer;
+}
+.features {
+  padding: 80px 0;
+  background-color: var(--secondary-color);
+}
+
+.features-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature {
+  width: calc(33.33% - 20px);
+  text-align: center;
+}
+
+.feature-image {
+  margin-bottom: 20px;
+}
+
+.feature-title {
+  font-size: var(--font-size-large);
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.feature-text {
+  font-size: var(--font-size-medium);
+  color: var(--text-color);
 }
