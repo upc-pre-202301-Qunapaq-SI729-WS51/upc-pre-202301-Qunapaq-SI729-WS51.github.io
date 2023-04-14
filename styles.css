@@ -260,3 +260,31 @@ nav {
   font-size: var(--font-size-medium);
   color: var(--text-color);
 }
+
+.team-title{
+  font-size: var(--font-size-xlarge);
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.team-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: center; 
+
+}
+.team-container div{
+  width: 250px;
+  margin: 20px;
+  text-align: center;
+}
+.team-image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
