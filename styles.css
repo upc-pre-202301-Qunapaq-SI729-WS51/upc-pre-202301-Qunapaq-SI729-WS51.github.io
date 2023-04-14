@@ -236,3 +236,27 @@ nav {
   background-color: var(--accent-hover-color);
   transition: all 0.3s ease-in-out;
 }
+
+/* About Us */
+.about-us {
+  padding: 80px 0;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+.about-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-us-title {
+  font-size: var(--font-size-large);
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.about-us-text {
+  font-size: var(--font-size-medium);
+  color: var(--text-color);
+}
